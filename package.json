@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ./X run dev",
+    "build": "npm --prefix ./X run build",
+    "lint": "npm --prefix ./X run lint"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "axios": "^1.14.0",
+    "jwt-decode": "^4.0.0",
+    "react-router-dom": "^7.14.0",
+    "tailwindcss": "^4.2.2"
+  }
+}
